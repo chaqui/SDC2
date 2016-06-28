@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "921319880427",
+    "firebase_url": "https://segdcristo-d91f0.firebaseio.com",
+    "project_id": "segdcristo-d91f0",
+    "storage_bucket": "segdcristo-d91f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921319880427:android:c92c718cc82aa7f2",
+        "android_client_info": {
+          "package_name": "com.seguidoresdecristo.sdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921319880427-mg465u7q3smbq4j1hutgvgktscm1db2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBphkJDONPY3iG9yD7g7jBemY1hvkjee3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

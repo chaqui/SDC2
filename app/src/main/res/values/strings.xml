@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SDC</string>
+    <string name="title_activity_principal">Principal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open"> Drawer Opened </string>
+    <string name="drawer_close"> Drawer Closed </string>
+    <string-array name="drawer_list">
+        <item>Inicio</item>
+        <item>Actividades</item>
+        <item>Mensajes</item>
+    </string-array>
+</resources>
