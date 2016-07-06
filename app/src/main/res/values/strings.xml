@@ -5,10 +5,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="drawer_open"> Drawer Opened </string>
-    <string name="drawer_close"> Drawer Closed </string>
-    <string-array name="drawer_list">
-        <item>Inicio</item>
-        <item>Actividades</item>
-        <item>Mensajes</item>
+    <string name="inicio"> Inicio </string>
+    <string name="Actividades"> Actividades </string>
+    <string name="Mensajes"> Mensajes </string>
+    <string name="Configuracion">Configuración</string>
+
+    <string-array name="prueba">
+
     </string-array>
+    <string name="title_activity_sign_in">SignInActivity</string>
 </resources>

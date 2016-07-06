@@ -4,4 +4,19 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FFC107</color>
     <color name="fondo">#e9ebee</color>
+    <color name="texto">#000000</color>
+    <color name="red">#D32F2F</color>
+    <color name="rosa">#FF4081</color>
+    <color name="verde">#689F38</color>
+    <color name="yellow">#FBC02D</color>
+    <color name="orange">#FF5722</color>
+    <color name="brown">#795548</color>
+    <integer-array name="intial_colors">
+        <item>@color/red</item>
+        <item>@color/rosa</item>
+        <item>@color/verde</item>
+        <item>@color/yellow</item>
+        <item>@color/orange</item>
+        <item>@color/brown</item>
+    </integer-array>
 </resources>
