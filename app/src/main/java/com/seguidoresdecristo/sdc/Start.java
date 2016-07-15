@@ -16,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class Start extends AppCompatActivity {
     private final int DURACION_SPLASH = 2000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +29,7 @@ public class Start extends AppCompatActivity {
         }, DURACION_SPLASH);
     }
     private void iniciarActivity(){
-        DatabaseReference ref = FirebaseDatabase.getInstance()
+        FirebaseDatabase ref = FirebaseDatabase.getInstance();
         FirebaseAuth auth = FirebaseAuth.getInstance();
         auth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
             @Override
