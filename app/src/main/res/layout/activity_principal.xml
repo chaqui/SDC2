@@ -14,8 +14,8 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.seguidoresdecristo.sdc.Fragments.Inicio"
+        android:name="com.seguidoresdecristo.sdc.Fragments.crearMensaje"
         android:id="@+id/fragment"
         android:layout_gravity="center_horizontal"
-        tools:layout="@layout/fragment_inicio" />
+        tools:layout="@layout/fragment_crear_mensaje" />
 </LinearLayout>

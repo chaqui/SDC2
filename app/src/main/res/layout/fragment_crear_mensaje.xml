@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.crearMensaje"
+    android:background="@color/fondo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="141dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:weightSum="1"
+            android:layout_weight="0.46">
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="Escriba el mensaje "
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.04" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_weight="0.45">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <EditText
+                    android:textColor="@color/texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="188dp"
+                    android:id="@+id/txAEnviar"
+                    android:layout_weight="0.82" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:id="@+id/btEnviar"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>
