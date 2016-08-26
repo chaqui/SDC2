@@ -9,7 +9,7 @@
     <string name="Actividades"> Actividades </string>
     <string name="Mensajes"> Mensajes </string>
     <string name="Configuracion">Configuración</string>
-
+    <string name="facebook_app_id">1242733575761147</string>
     <string-array name="prueba">
 
     </string-array>

@@ -57,11 +57,6 @@
 
         </LinearLayout>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Enviar"
-            android:id="@+id/btEnviar"
-            android:layout_gravity="center_horizontal" />
+
     </LinearLayout>
 </FrameLayout>

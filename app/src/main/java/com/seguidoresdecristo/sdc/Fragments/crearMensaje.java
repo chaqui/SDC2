@@ -34,7 +34,6 @@ public class crearMensaje extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =inflater.inflate(R.layout.fragment_crear_mensaje, container, false);
-
         txAEnviar = (EditText)  view.findViewById(R.id.txAEnviar);
         enviar = (Button)view.findViewById(R.id.btEnviar);
         enviar.setOnClickListener(new View.OnClickListener(){
