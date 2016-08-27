@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.facebook.AccessToken;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -29,22 +30,22 @@ public class Start extends AppCompatActivity {
         }, DURACION_SPLASH);
     }
     private void iniciarActivity(){
-        FirebaseDatabase ref = FirebaseDatabase.getInstance();
-        FirebaseAuth auth = FirebaseAuth.getInstance();
-        auth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull final FirebaseAuth firebaseAuth) {
-                final FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null) {
-                    Intent intent = new Intent(Start.this, Principal.class);
-                    startActivity(intent);
-                } else {
-                    Intent intent = new Intent(Start.this, Principal.class);
-                    startActivity(intent);
-                }
-                    finish();
-            }
-        });
+        if(AccessToken.getCurrentAccessToken()==null){
+            irAPantallaDeLogin();
+        }else{
+            irAPantallaPrincipal();
+        }
+    }
+
+    private void irAPantallaDeLogin() {
+        Intent intent = new Intent(this,SignInActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+    private void irAPantallaPrincipal(){
+        Intent intent = new Intent(this,Principal.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 
 }

@@ -15,7 +15,13 @@
         android:onClick="googleLogin"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
-
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

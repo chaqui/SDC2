@@ -14,4 +14,7 @@
 
     </string-array>
     <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="Salir">salir</string>
+    <string name="Chat">Chat</string>
+    <string name="CrearMensaje">Crear Mensaje</string>
 </resources>
